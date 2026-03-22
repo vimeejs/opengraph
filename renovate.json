@@ -3,11 +3,11 @@
   "extends": ["config:recommended", ":timezone(Asia/Tokyo)"],
   "postUpdateOptions": ["bundlerConservative"],
   "enabledManagers": ["gomod"],
-  "minimumReleaseAge": "14 days",
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "minimumReleaseAge": "30 days"
+      "minimumReleaseAge": "7 days"
     }
   ],
   "labels": ["renovate"],
